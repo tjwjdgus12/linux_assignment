@@ -1085,6 +1085,7 @@ asmlinkage long sys_stat64(const char __user *filename,
 				struct stat64 __user *statbuf);
 asmlinkage long sys_lstat64(const char __user *filename,
 				struct stat64 __user *statbuf);
+asmlinkage long sys_mycall(void);
 #endif
 
 /* __ARCH_WANT_SYSCALL_NO_FLAGS */
